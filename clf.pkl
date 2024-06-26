@@ -1,0 +1,2 @@
+import pickle
+pickle.dump(clf,open('clf.pkl','wb'))
