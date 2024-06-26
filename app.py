@@ -1,5 +1,9 @@
 import streamlit as st
-import pickle
+import joblib
+import pandas as pd
+
+# Load the model
+clf = joblib.load("clf.joblib")
 
 Teams = ['South Africa', 'Ireland', 'Australia', 'Pakistan', 'Sri Lanka',
        'Afghanistan', 'Zimbabwe', 'West Indies', 'Scotland',
