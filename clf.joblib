@@ -1,0 +1,4 @@
+import joblib
+
+# Assuming clf is your trained model
+joblib.dump(clf, 'clf.joblib')
