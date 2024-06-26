@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 import pandas as pd
-
+import os
 # Load the model
 # clf = joblib.load("clf.joblib")
 # Assuming clf.joblib is in the same directory as app.py
