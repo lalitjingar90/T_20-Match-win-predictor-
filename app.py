@@ -3,7 +3,19 @@ import joblib
 import pandas as pd
 
 # Load the model
-clf = joblib.load("clf.joblib")
+# clf = joblib.load("clf.joblib")
+# Assuming clf.joblib is in the same directory as app.py
+model_path = "clf.joblib"
+
+# Get the absolute path to clf.joblib
+model_path = os.path.abspath(model_path)
+
+# Check if the file exists before loading
+if os.path.exists(model_path):
+    clf = joblib.load(model_path)
+else:
+    st.error(f"Model file '{model_path}' not found. Please check the file path.")
+
 
 Teams = ['South Africa', 'Ireland', 'Australia', 'Pakistan', 'Sri Lanka',
        'Afghanistan', 'Zimbabwe', 'West Indies', 'Scotland',
