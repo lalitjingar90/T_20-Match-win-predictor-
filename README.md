@@ -1,18 +1,17 @@
-🏏 T20 Match Win Predictor
-
+**🏏 T20 Match Win Predictor**
 This project predicts the win probability of the chasing team in international T20 matches using ball-by-ball data from 2006–2023.
 It analyzes the evolving match situation — runs required, balls remaining, wickets left, and run rates — to model the likelihood of a win.
 
-📘 Overview
+📘 **Overview**
 
 Cricket’s unpredictable nature makes win prediction a fascinating machine learning problem.
 By using real match data, this notebook explores how different game states influence outcomes and builds a predictive framework to estimate win chances at any moment during a chase.
 
-🗂️ Dataset Details
+🗂️ **Dataset Details**
 
 Source: Ball-by-ball data from international T20 matches (2006–2023)
 
-Files Used:
+**Files Used:**
 
 matches → Match-level data (Match ID, Venue, Winner, Bat First, Bat Second, Target Score)
 
@@ -22,9 +21,9 @@ Filtered Teams: Active international teams and T20 World Cup 2024 participants o
 
 Focus: Second innings (chasing side only).
 
-⚙️ Data Processing Steps
+⚙️ **Data Processing Steps**
 
-Data Cleaning
+**Data Cleaning**
 
 Removed null values and irrelevant columns
 
@@ -32,7 +31,7 @@ Standardized team names
 
 Filtered out non-international and incomplete matches
 
-Feature Engineering
+**Feature Engineering**
 
 Current Score – total runs scored so far
 
@@ -46,13 +45,13 @@ Required Run Rate (RR) = (Required Runs / Balls Remaining) × 6
 
 Current Run Rate (CR) = (Current Score / Balls Bowled) × 6
 
-Dataset Refinement
+**Dataset Refinement**
 
 Kept only second-innings data (useful for win probability modeling)
 
 Removed unnecessary columns like Player Out and Method
 
-🧠 Modeling (as per notebook)
+🧠 **Modeling**
 
 While the notebook primarily focuses on data preprocessing and feature creation, it is designed to feed into a machine learning model that can predict the probability of winning.
 Typical algorithms suited for this problem include:
@@ -63,9 +62,8 @@ Random Forest
 
 XGBoost
 
-(You can extend the notebook to include these models.)
 
-📊 Key Features Summary
+📊 **Key Features Summary**
 Feature	Description
 Current Score	Total runs scored so far
 Wickets Left	Remaining wickets (10 - fallen wickets)
@@ -79,7 +77,7 @@ Data Analysis	pandas, numpy
 Visualization	matplotlib, seaborn (if used later)
 ML (extendable)	scikit-learn, xgboost
 
-📈 Future Improvements
+📈 **Future Improvements**
 
 Add machine learning models for probability prediction
 
@@ -89,11 +87,11 @@ Create an interactive dashboard using Streamlit
 
 Perform feature importance analysis and model evaluation
 
-👨‍💻 Author
-
+👨‍💻 **Author**
 Lalit Jingar
 📧 lalitjingar90@gmail.com
 🌐 https://www.linkedin.com/in/lalit-jingar/
 ⭐ If you like this project, consider giving it a star!
+
 
 
