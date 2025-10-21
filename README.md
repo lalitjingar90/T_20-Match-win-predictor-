@@ -1,4 +1,5 @@
 **🏏 T20 Match Win Predictor**
+
 This project predicts the win probability of the chasing team in international T20 matches using ball-by-ball data from 2006–2023.
 It analyzes the evolving match situation — runs required, balls remaining, wickets left, and run rates — to model the likelihood of a win.
 
@@ -88,10 +89,12 @@ Create an interactive dashboard using Streamlit
 Perform feature importance analysis and model evaluation
 
 👨‍💻 **Author**
+
 Lalit Jingar
 📧 lalitjingar90@gmail.com
 🌐 https://www.linkedin.com/in/lalit-jingar/
 ⭐ If you like this project, consider giving it a star!
+
 
 
 
