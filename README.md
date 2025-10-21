@@ -92,7 +92,8 @@ Perform feature importance analysis and model evaluation
 👨‍💻 Author
 
 Lalit Jingar
-📧 [Your Email]
-🌐 [Your LinkedIn or Portfolio Link]
+📧 lalitjingar90@gmail.com
+🌐 https://www.linkedin.com/in/lalit-jingar/
 ⭐ If you like this project, consider giving it a star!
+
 
